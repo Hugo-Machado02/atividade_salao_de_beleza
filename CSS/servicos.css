@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab:wght@300&family=Roboto:wght@100;500&display=swap');
+
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: block;
+    position: relative;
+}
+
+body{
+    display: block;
+    position: relative;
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu_item{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-bottom: .1em solid #dfdfdf;
+}
+
+.menu_item li a{
+    display: flex;
+    position: relative;
+    height: 6vh;
+    justify-content: center;
+    align-items: center;
+    padding: .5em 1.5em;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #000;
+    transition: .5s;
+}
+
+.menu_item li .item:hover{
+    background-color: black;
+    color: #fff;
+}
+.menu_item li a img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background-color: #fcfcfc;
+    align-items: center;
+    padding: 2% 0;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inicio{
+    font-size: 1.6em;
+    color: black;
+    padding-bottom: 2%;
+}
+
+.informacoes{
+    display: flex;
+    flex-direction: row;
+    padding: 2% 10%;  
+}
+
+.informacoes img{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 2em;
+    margin-right: 2%;
+}
+
+.infos h2{
+    font-size: 1.5em;
+    padding-bottom: 3%;
+    border-bottom: .05em solid #dfdfdf;
+    font-weight: 400;
+}
+
+.infos p{
+    display: block;
+    font-size: 1em;
+    margin-top: 4%;
+    text-align: justify;
+}
+
+.galeria{
+    margin-top: 4%;
+    display: block;
+    position: relative;
+}
+
+.galeria h1{
+    font-size: 1.8em;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.fotos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2% 0;
+    gap: 2%;
+}
+
+.elemento{
+    display: block;
+    position: relative;
+    width: 30vh;
+    height: 30vh;
+    overflow: hidden;
+    border-radius: 1em;
+}
+
+.elemento img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+aside{
+    border-left: .2em solid #bdbdbd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    width: 44vh;
+    height: 100%;
+    text-align: center;
+}
+
+.complemento{
+    display: block;
+    position: relative;
+}
+
+.complemento .banner{
+    display: block;
+    position: relative;
+    width: 40vh;
+    height: 100%;
+    overflow: hidden;
+}
+
+.banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+footer{
+    display: block;
+    text-align: center;
+    padding: 1%;
+    background-color: #272727;
+    color: #fff;
+}

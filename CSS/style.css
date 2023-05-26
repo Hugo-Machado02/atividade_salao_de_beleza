@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab:wght@300&family=Roboto:wght@100;500&display=swap');
+
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: block;
+    position: relative;
+}
+
+body{
+    display: block;
+    position: relative;
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu_item{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-bottom: .1em solid #dfdfdf;
+}
+
+.menu_item li a{
+    display: flex;
+    position: relative;
+    height: 6vh;
+    justify-content: center;
+    align-items: center;
+    padding: .5em 1.5em;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #000;
+    transition: .5s;
+}
+
+.menu_item li .item:hover{
+    background-color: black;
+    color: #fff;
+}
+.menu_item li a img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main{
+    display: block;
+    position: relative;
+    background-color: #fcfcfc;
+}
+
+#background{
+    display: block;
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height: 63vh;
+    overflow: hidden;
+}
+
+#background img{
+    width: 100%;
+    object-fit: cover;
+    opacity: .9;
+}
+
+.infos{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.infos h1{
+    display: block;
+    position: relative;
+    font-size: 3em;
+    font-family: 'Open Sans', sans-serif;
+}
+.infos h2{
+    display: block;
+    position: relative;
+    font-size: 2em;
+    font-weight: 400;
+}
+
+#local{
+    display: block;
+    margin: 2% 16%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#local header h1{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 2%;
+    font-weight: 400;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    padding: 2%;
+
+}
+
+.container img{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 2em;
+    margin-right: 2%;
+}
+
+.informacao{
+    width: 100%;
+    display: block;
+    position: relative;
+    font-size: 1.2em;
+}
+
+.informacao h2{
+    font-size: 1.5em;
+    padding-bottom: 2%;
+    border-bottom: .05em solid #dfdfdf;
+    font-weight: 400;
+}
+
+.informacao p{
+    font-size: 1em;
+    margin-top: 2%;
+    text-align: justify;
+}
+
+#servicos{
+    display: block;
+    position: relative;
+    background-color: black;
+    height: 100%;
+}
+
+.bg_servicos{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.bg_servicos img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.elementos{
+    padding-top: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8%;
+}
+
+.elementos .icone{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    border: .5em solid #fff;
+    border-radius: 50%;
+}
+
+.elementos .titulo{
+    display: block;
+    position: relative;
+    padding-top: 20%;
+    color: #fff;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+#btn{
+    display: block;
+    position: relative;
+    padding: 14% 0;
+    text-align: center;
+}
+
+#btn button{
+    font-size: 1em;
+    padding: 10% 15%;
+    background-color: #fff;
+    border: none;
+    border-radius: 2em;
+}
+#btn button:hover{
+    cursor: pointer;
+}
+
+footer{
+    display: block;
+    text-align: center;
+    padding: 1%;
+    background-color: #272727;
+    color: #fff;
+}
